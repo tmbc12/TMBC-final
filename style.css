@@ -2093,6 +2093,7 @@ html {
     --color--text-primary: var(--swatches--black);
     --swatches--black: #000;
     --fluid-fontsize--large: 9vw;
+    --fluid-fontsize--large2: 4vw;
     --fluid-fontsize--large1: 9.75vw;
     --font-size--3xl: 3rem;
     --font-size--2xl: 2rem;
@@ -2153,6 +2154,7 @@ html {
     font-weight: 600;
     line-height: 1.4;
     display: block;
+    letter-spacing: -1px;
   }
   
   h2 {
@@ -3206,6 +3208,7 @@ html {
     font-weight: 600;
     line-height: 80%;
     display: inline-block;
+    letter-spacing: -10px;
   }
   
   .navbar-button {
@@ -3457,8 +3460,8 @@ html {
   }
   
   .cta-heading {
-    max-width: 13ch;
-    font-size: var(--fluid-fontsize--large);
+    max-width: 14ch;
+    font-size: var(--fluid-fontsize--large2);
     letter-spacing: -.2vw;
     font-weight: 600;
     line-height: 90%;
