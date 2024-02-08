@@ -2092,7 +2092,7 @@ html {
     --font-family--primary: "Inter Display", sans-serif;
     --color--text-primary: var(--swatches--black);
     --swatches--black: #000;
-    --fluid-fontsize--large: 9vw;
+    --fluid-fontsize--large: 5vw;
     --fluid-fontsize--large2: 4vw;
     --fluid-fontsize--large1: 9.75vw;
     --font-size--3xl: 3rem;
