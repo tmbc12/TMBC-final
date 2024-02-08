@@ -2116,7 +2116,7 @@ html {
     --color--button-background: var(--swatches--black-opacity-7);
     --fluid-fontsize--2xl: 10vw;
     --font-size--5xl: 9rem;
-    --fluid-fontsize--medium: 4.5vw;
+    --fluid-fontsize--medium: 3.5vw;
     --border-radius--button-border-radius: 50vw;
     --fluid-fontsize--3xl: 9.5vw;
     --fluid-fontsize--xl: 7vw;
@@ -2989,11 +2989,12 @@ html {
   }
   
   .medium-fluid-text {
-    max-width: 19ch;
+    max-width: 24ch;
     font-size: var(--fluid-fontsize--medium);
     letter-spacing: -.025vw;
     font-weight: 600;
-    line-height: 100%;
+    line-height: 110%;
+    letter-spacing: -1px;
   }
   
   .flex-vertical {
@@ -3352,7 +3353,7 @@ html {
   }
   
   .large-section-subtitle {
-    max-width: 18ch;
+    max-width: 24ch;
     font-size: var(--font-size--3xl);
     font-weight: 600;
     line-height: 100%;
