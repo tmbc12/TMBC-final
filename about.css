@@ -2092,15 +2092,14 @@ html {
     --font-family--primary: "Inter Display", sans-serif;
     --color--text-primary: var(--swatches--black);
     --swatches--black: #000;
-    --fluid-fontsize--large: 9vw;
-    --fluid-fontsize--large1: 9.75vw;
+    --fluid-fontsize--large: 4.75vw;
     --font-size--3xl: 3rem;
     --font-size--2xl: 2rem;
     --font-size--large: 1.25rem;
     --border-radius--image-border-radius: .25rem;
     --page-padding--main-desktop: 4rem;
     --page-padding--main-tablet: 3rem;
-    --page-padding--main-landscape: 1.5rem;
+    --page-padding--main-landscape: 1.8rem;
     --page-padding--main-portrait: 1.5rem;
     --color--border: var(--swatches--black-opacity-15);
     --font-size--xl: 1.5rem;
@@ -2114,11 +2113,11 @@ html {
     --swatches--black-opacity-7: rgba(0, 0, 0, .07);
     --font-size--small: .8125rem;
     --color--button-background: var(--swatches--black-opacity-7);
-    --fluid-fontsize--2xl: 10vw;
+    --fluid-fontsize--2xl: 12vw;
     --font-size--5xl: 9rem;
     --fluid-fontsize--medium: 4.5vw;
     --border-radius--button-border-radius: 50vw;
-    --fluid-fontsize--3xl: 9.5vw;
+    --fluid-fontsize--3xl: 18vw;
     --fluid-fontsize--xl: 7vw;
   }
   
@@ -2151,12 +2150,12 @@ html {
     margin-bottom: 0;
     padding-top: 0;
     font-weight: 600;
-    line-height: 1.4;
+    line-height: 1.2;
     display: block;
   }
   
   h2 {
-    font-size: var(--fluid-fontsize--large2);
+    font-size: var(--fluid-fontsize--large);
     letter-spacing: -.1vw;
     text-transform: none;
     margin-top: 0;
@@ -2887,19 +2886,15 @@ html {
   }
   
   .hero-image {
-    height: 100%;
-    width: 100%;
+    height: 120%;
     position: absolute;
   }
- 
   
   .image-wrapper {
-    aspect-ratio: 22 / 15;
+    aspect-ratio: 3 / 2;
     border-radius: var(--border-radius--image-border-radius);
     position: relative;
     overflow: hidden;
-    width: 100%;
-    height: 100%;
   }
   
   .hero-image-revealer {
@@ -2925,7 +2920,7 @@ html {
   }
   
   .section-subtitle {
-    max-width: 18ch;
+    max-width: 30ch;
     font-size: var(--font-size--xl);
     font-weight: 500;
     line-height: 115%;
@@ -2945,7 +2940,7 @@ html {
   
   .parallax-image {
     width: 100%;
-    height: 100%;
+    height: 120%;
     display: inline-block;
     position: absolute;
     overflow: hidden;
@@ -3273,7 +3268,7 @@ html {
   }
   
   .project-image-wrapper {
-    aspect-ratio: 9 / 6;
+    aspect-ratio: 3 / 2;
     border-radius: var(--border-radius--image-border-radius);
     justify-content: center;
     align-items: center;
@@ -3362,7 +3357,7 @@ html {
     border-top: 1px solid var(--color--border);
     flex-direction: column;
     justify-content: space-between;
-    padding-top: 1.1rem;
+    padding-top: 1.5rem;
     display: flex;
   }
   
@@ -3375,7 +3370,7 @@ html {
     max-width: 230px;
     aspect-ratio: auto;
     margin-top: 2.5rem;
-    margin-bottom: 30PX;
+    margin-bottom: 8.5rem;
   }
   
   .client-text {
@@ -3480,12 +3475,12 @@ html {
     font-size: var(--fluid-fontsize--3xl);
     letter-spacing: -.5vw;
     font-weight: 600;
-    line-height: 120%;
+    line-height: 80%;
     display: inline-block;
   }
   
   .subpgage-hero-subtitle {
-    max-width: 21ch;
+    max-width: 34ch;
     font-size: var(--font-size--3xl);
     letter-spacing: -.05rem;
     padding-bottom: .5rem;
@@ -3679,11 +3674,12 @@ html {
   }
   
   .about-intro-text {
-    max-width: 1070px;
+    max-width: 1400px;
     font-size: var(--fluid-fontsize--large);
     margin-bottom: 5rem;
     font-weight: 600;
-    line-height: 100%;
+    line-height: 110%;
+    letter-spacing: -1.8px;
   }
   
   .about-intro-description {
