@@ -2093,7 +2093,8 @@ html {
     --color--text-primary: var(--swatches--black);
     --swatches--black: #000;
     --fluid-fontsize--large: 4.75vw;
-    --font-size--3xl: 3rem;
+    --fluid-fontsize--large2: 3.75vw;
+    --font-size--3xl: 2rem;
     --font-size--2xl: 2rem;
     --font-size--large: 1.25rem;
     --border-radius--image-border-radius: .25rem;
@@ -2117,7 +2118,8 @@ html {
     --font-size--5xl: 9rem;
     --fluid-fontsize--medium: 4.5vw;
     --border-radius--button-border-radius: 50vw;
-    --fluid-fontsize--3xl: 18vw;
+    --fluid-fontsize--3xl: 15vw;
+    --fluid-fontsize--3xl2: 8vw;
     --fluid-fontsize--xl: 7vw;
   }
   
