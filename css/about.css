@@ -2814,8 +2814,8 @@ html {
   }
   
   .logo {
-    max-height: 1.25rem;
-    aspect-ratio: auto;
+    width: 150px;
+    height: 25px;
     border-radius: 0;
   }
   

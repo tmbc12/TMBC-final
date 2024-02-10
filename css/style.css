@@ -254,8 +254,7 @@ html {
   }
   
   .w-inline-block {
-    max-width: 600px;
-    max-height: 500px;
+    max-width: 100%;
     display: inline-block;
   }
   
@@ -2816,8 +2815,8 @@ html {
   }
   
   .logo {
-    max-height: 30px;
-    aspect-ratio: auto;
+    width: 150px;
+    height: 25px;
     border-radius: 0;
   }
   
@@ -2928,7 +2927,7 @@ html {
   }
   
   .section-subtitle {
-    max-width: 18ch;
+    max-width: 15ch;
     font-size: var(--font-size--xl);
     font-weight: 500;
     line-height: 115%;
@@ -3209,7 +3208,7 @@ html {
     font-weight: 600;
     line-height: 80%;
     display: inline-block;
-    letter-spacing: -10px;
+    letter-spacing: -3px;
   }
   
   .navbar-button {
