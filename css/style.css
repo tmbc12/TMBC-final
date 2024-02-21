@@ -2215,10 +2215,14 @@ textarea.w-select {
   --swatches--black: #000;
   --fluid-fontsize--large: 6vw;
   --fluid-fontsize--large2: 4vw;
+  --fluid-fontsize--large3: 8.5vw;
   --fluid-fontsize--large1: 9.75vw;
   --font-size--3xl: 3rem;
+  --font-size--3xl2: 4rem;
   --font-size--2xl: 2rem;
+  --font-size--2xl2: 3rem;
   --font-size--large: 1.25rem;
+  --font-size--large2: 1.8rem;
   --border-radius--image-border-radius: .25rem;
   --page-padding--main-desktop: 4rem;
   --page-padding--main-tablet: 3rem;
@@ -2280,8 +2284,8 @@ h1 {
 }
 
 h2 {
-  font-size: var(--fluid-fontsize--large2);
-  letter-spacing: -.1vw;
+  font-size: var(--fluid-fontsize--large3);
+  letter-spacing: -.5vw;
   text-transform: none;
   margin-top: 0;
   margin-bottom: 0;
@@ -2902,7 +2906,7 @@ figcaption {
 
 .hero-title {
   margin-top: 30px;
-  margin-left: 5%;
+  margin-left: 8%;
   gap: 50px;
 }
 
@@ -3858,7 +3862,7 @@ figcaption {
   }
 
   h2 {
-    font-size: var(--font-size--3xl);
+    font-size: var(--font-size--3xl2);
   }
 
   h3 {
@@ -4111,7 +4115,7 @@ figcaption {
   }
 
   h2 {
-    font-size: var(--font-size--2xl);
+    font-size: var(--font-size--2xl2);
   }
 
   h3 {
@@ -4259,7 +4263,7 @@ figcaption {
   }
 
   h2 {
-    font-size: var(--font-size--large);
+    font-size: var(--font-size--large2);
     letter-spacing: 0;
   }
 
